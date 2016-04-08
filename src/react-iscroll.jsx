@@ -139,8 +139,7 @@ export default class ReactIScroll extends React.Component {
   }
 
   _runInitializeIScroll() {
-    const {iscroll: iScroll, options} = this.props
-
+    const {iScroll: iScroll, options} = this.props
     // Create iScroll instance with given options
     const iScrollInstance = new iScroll(ReactDOM.findDOMNode(this), options)
     this._iScrollInstance = iScrollInstance

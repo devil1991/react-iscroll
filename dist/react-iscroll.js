@@ -165,9 +165,8 @@ var ReactIScroll = function (_React$Component) {
       var _this3 = this;
 
       var _props = this.props;
-      var iScroll = _props.iscroll;
+      var iScroll = _props.iScroll;
       var options = _props.options;
-
       // Create iScroll instance with given options
 
       var iScrollInstance = new iScroll(_reactDom2.default.findDOMNode(this), options);
