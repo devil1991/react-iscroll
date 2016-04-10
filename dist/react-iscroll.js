@@ -165,11 +165,11 @@ var ReactIScroll = function (_React$Component) {
       var _this3 = this;
 
       var _props = this.props;
-      var iScroll = _props.iScroll;
+      var iscroll = _props.iscroll;
       var options = _props.options;
       // Create iScroll instance with given options
 
-      var iScrollInstance = new iScroll(_reactDom2.default.findDOMNode(this), options);
+      var iScrollInstance = new iscroll(_reactDom2.default.findDOMNode(this), options);
       this._iScrollInstance = iScrollInstance;
 
       // TODO there should be new event 'onInitialize'

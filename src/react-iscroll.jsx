@@ -139,9 +139,9 @@ export default class ReactIScroll extends React.Component {
   }
 
   _runInitializeIScroll() {
-    const {iScroll: iScroll, options} = this.props
+    const {iscroll: iscroll, options} = this.props
     // Create iScroll instance with given options
-    const iScrollInstance = new iScroll(ReactDOM.findDOMNode(this), options)
+    const iScrollInstance = new iscroll(ReactDOM.findDOMNode(this), options)
     this._iScrollInstance = iScrollInstance
 
     // TODO there should be new event 'onInitialize'
